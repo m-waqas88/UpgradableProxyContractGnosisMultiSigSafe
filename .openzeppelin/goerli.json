@@ -1,0 +1,325 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xACb66aaf7BFd8e010ed4AB256C84443e25143104",
+    "txHash": "0x277260c4b3b706dec05e0b15f5ec8606151f24810e2c63d5bb843e0107eb3460"
+  },
+  "proxies": [
+    {
+      "address": "0x3cb36436A7bfF8CA656a243346100fDC589CcF83",
+      "txHash": "0x377ec19af9edb3f1b7038e0b73c98062cb3dca6406599e85b8da1e5f6972f426",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "59436e6deec3ad5517999532553e87ef09e68c72c5634cb544e20eb18b65a70d": {
+      "address": "0xd0B559B0202090Ddb8e062c863B538c832183394",
+      "txHash": "0x2b9b16a8c499b71f4dabe5a3e8ef97f55349c5c2138e8c7870f2451ef37d5c34",
+      "layout": {
+        "solcVersion": "0.8.6",
+        "storage": [
+          {
+            "label": "executing",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Phase1",
+            "src": "contracts/Phase1.sol:5"
+          },
+          {
+            "label": "owner",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Phase1",
+            "src": "contracts/Phase1.sol:6"
+          },
+          {
+            "label": "totalSupply",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "Phase1",
+            "src": "contracts/Phase1.sol:7"
+          },
+          {
+            "label": "balanceOf",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "Phase1",
+            "src": "contracts/Phase1.sol:8"
+          },
+          {
+            "label": "allowance",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "Phase1",
+            "src": "contracts/Phase1.sol:9"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_string_storage",
+            "contract": "Phase1",
+            "src": "contracts/Phase1.sol:10"
+          },
+          {
+            "label": "symbol",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_string_storage",
+            "contract": "Phase1",
+            "src": "contracts/Phase1.sol:11"
+          },
+          {
+            "label": "decimals",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint8",
+            "contract": "Phase1",
+            "src": "contracts/Phase1.sol:12"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "893018e5d0900b65cfe8564513f1c2aa6ae0bc3b7ecc1e665c890de5216c901d": {
+      "address": "0x8C35B7E7A296C0dDCD96A1060B9317BF90Fece02",
+      "txHash": "0xab276ce964e2985614dfe3a41b85bc56979104f89658128763fff55564af494c",
+      "layout": {
+        "solcVersion": "0.8.6",
+        "storage": [
+          {
+            "label": "executing",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Phase2",
+            "src": "contracts/Phase2.sol:33"
+          },
+          {
+            "label": "owner",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Phase2",
+            "src": "contracts/Phase2.sol:34"
+          },
+          {
+            "label": "totalSupply",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "Phase2",
+            "src": "contracts/Phase2.sol:35"
+          },
+          {
+            "label": "balanceOf",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "Phase2",
+            "src": "contracts/Phase2.sol:36"
+          },
+          {
+            "label": "allowance",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "Phase2",
+            "src": "contracts/Phase2.sol:37"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_string_storage",
+            "contract": "Phase2",
+            "src": "contracts/Phase2.sol:38"
+          },
+          {
+            "label": "symbol",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_string_storage",
+            "contract": "Phase2",
+            "src": "contracts/Phase2.sol:39"
+          },
+          {
+            "label": "decimals",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint8",
+            "contract": "Phase2",
+            "src": "contracts/Phase2.sol:40"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "ffcf10c9cd2d48f083496d354547d8da527311522241906ab59b662270bfd808": {
+      "address": "0x8Ac8AaD5A338Ec4f5316a50ea3550A3366760458",
+      "txHash": "0x940139cf1b1ae26975f0b784bf452500f94ca18e39cecbbce0ac2a678e014ba4",
+      "layout": {
+        "solcVersion": "0.8.6",
+        "storage": [
+          {
+            "label": "executing",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Phase3",
+            "src": "contracts/Phase3.sol:49"
+          },
+          {
+            "label": "owner",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Phase3",
+            "src": "contracts/Phase3.sol:50"
+          },
+          {
+            "label": "totalSupply",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "Phase3",
+            "src": "contracts/Phase3.sol:51"
+          },
+          {
+            "label": "balanceOf",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "Phase3",
+            "src": "contracts/Phase3.sol:52"
+          },
+          {
+            "label": "allowance",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "Phase3",
+            "src": "contracts/Phase3.sol:53"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_string_storage",
+            "contract": "Phase3",
+            "src": "contracts/Phase3.sol:54"
+          },
+          {
+            "label": "symbol",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_string_storage",
+            "contract": "Phase3",
+            "src": "contracts/Phase3.sol:55"
+          },
+          {
+            "label": "decimals",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint8",
+            "contract": "Phase3",
+            "src": "contracts/Phase3.sol:56"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
