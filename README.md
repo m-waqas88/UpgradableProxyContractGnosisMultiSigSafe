@@ -6,8 +6,8 @@ This is a demo project of Upgradable Proxy Implementation with 3 different ERC20
 1. Solidity
 2. Ethereum
 3. Openzeppelin
-  - openzeppelin/contracts
-  - openzeppelin/hardhat-upgrades
+    - openzeppelin/contracts
+    - openzeppelin/hardhat-upgrades
 4. Erc20 Token
 5. Hardhat (local development, smart contract verifications and deployment)
 6. EthersJs (blockchain interaction)
